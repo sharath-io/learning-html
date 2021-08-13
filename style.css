@@ -8,6 +8,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+hr{
+    margin: 2rem 0rem;
+}
+
 .container{
    padding-left: 1rem;
    padding-right: 1rem;
