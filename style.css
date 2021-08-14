@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #34D399;
+    --light-black-color: #6B7280;
 }
 
 body{
@@ -79,6 +80,24 @@ text-align: right;
 }
 
 
+/* Header */
+
+.hero{
+    padding: 2rem;
+}
 
 
+.hero .hero-img{
+    max-width: 350px;
+    display:block;
+    margin: auto;
+}
 
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--light-black-color);
+}
+
+.hero .heading-inverted{
+    color: var(--primary-color);
+}
